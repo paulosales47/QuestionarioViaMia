@@ -9,7 +9,8 @@ export class BdService {
         firebase.database().ref(`pesquisa`).
             push({
                 ChanceIndicacao: pesquisa.ChanceIndicacao,
-                IndiceSatisfacao: pesquisa.IndiceSatisfacao
+                IndiceSatisfacao: pesquisa.IndiceSatisfacao,
+                DataPesquisa: new Date().toISOString()
             },
                 (result) => {
                     console.log(result);
