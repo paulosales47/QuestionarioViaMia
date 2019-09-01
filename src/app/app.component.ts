@@ -46,7 +46,7 @@ export class AppComponent implements OnInit {
 
     setTimeout(() => {
       this.VoltarTelaInicial();
-    }, 10000);
+    }, 3000);
 
     this.bd.SalvarPesquisa({
       IndiceSatisfacao: this.IndiceSatistacao,
