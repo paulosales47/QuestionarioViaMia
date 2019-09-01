@@ -1,0 +1,25 @@
+.jumbotron{
+    background-color:#EFECE6;
+}
+
+.material-icons{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.vs:hover{
+    color:#5cb85c;
+}
+
+.s:hover{
+    color:#0275d8;
+}
+
+.d:hover{
+    color:#f0ad4e
+}
+
+.vd:hover{
+    color: #d9534f;
+}
+
