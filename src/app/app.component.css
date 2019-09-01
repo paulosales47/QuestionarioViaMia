@@ -7,19 +7,27 @@
     cursor: pointer;
 }
 
-.vs:hover{
+.vs{
     color:#5cb85c;
 }
 
-.s:hover{
+.s{
     color:#0275d8;
 }
 
-.d:hover{
+.d{
     color:#f0ad4e
 }
 
-.vd:hover{
+.vd{
     color: #d9534f;
+}
+
+.btn{
+    background-color:white;
+    border-color: #DDD;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
